@@ -10,7 +10,8 @@ __author__ = "Lee Clement"
 __email__ = "lee.clement@robotics.utias.utoronto.ca"
 
 # Change this to the directory where you store KITTI data
-basedir = '/Users/leeclement/Desktop/KITTI/raw'
+# basedir = '/Users/leeclement/Desktop/KITTI/raw'
+basedir = '/media/ipb-hk/IPB_Backup/datasets/kitti/kitti_data'
 
 # Specify the dataset to load
 date = '2011_09_30'
