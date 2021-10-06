@@ -15,11 +15,13 @@ if __name__ == '__main__':
     y = data[:, 7]
     z = data[:, 11]
 
-    n = np.arange(x.shape[0])
+    # n = np.arange(x.shape[0])
+    # n = n[start:end+1:step]
     x = x[start:end+1:step]
     y = y[start:end+1:step]
     z = z[start:end+1:step]
-    n = n[start:end+1:step]
+    n = np.arange(x.shape[0])
+    n = n * step
 
     fig = plt.figure()
     line, = plt.plot(x, y)

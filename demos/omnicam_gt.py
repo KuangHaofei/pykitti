@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 if __name__ == '__main__':
-    basedir = '/media/ipb-hk/IPB_Backup/datasets/omnicam'
+    basedir = '/home/ipb-hk/Desktop/data/omnicam'
 
     # Specify the dataset to load
     date = '2013_05_14'
